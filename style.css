@@ -5,6 +5,7 @@ font-family: 'Rubik', sans-serif; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -1691,5 +1692,16 @@ footer p:nth-child(3) {
 
     footer p:nth-child(3) {
         color: white;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 1600px) {
+
+    .btnheader {
+        left: 105%;
+    }
+
+    .form textarea {
+        margin-left: 44px;
     }
 }

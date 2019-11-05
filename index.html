@@ -10,25 +10,26 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header data-section="headerj" id="headerj" class="header wrapper">
+    <header id="1" class="header wrapper page-section">
         <div class="logo">
             <p>CoffeeWithLove...</p>
         </div>
         <div class="burger"><i class="fas fa-bars show"></i><i class="fas fa-times"></i></div>
         <aside>
-            <nav class="clearfix">
+            <nav class="clearfix navigation">
                 <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a class="aboutj" href="#">about</a></li>
-                    <li><a class="servicesj" href="#">services</a></li>
-                    <li><a class="galleryj" href="#">gallery</a></li>
-                    <li><a class="blogj" href="#">blog</a></li>
-                    <li><a class="contactj" href="#">contact</a></li>
+                    <li><a href="#1">home</a></li>
+                    <li><a  href="#2">about</a></li>
+                    <li><a  href="#3">services</a></li>
+                    <li><a  href="#4">gallery</a></li>
+                    <li><a  href="#5">blog</a></li>
+                    <li><a  href="#6">contact</a></li>
                 </ul>
             </nav>
 
@@ -66,7 +67,7 @@
         </div>
     </section>
 
-    <section data-section="aboutj" id="aboutj" class="about">
+    <section id="2" class="about page-section">
         <div class="aboutin">
             <h1>About Us</h1>
             <p class="pabout">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius delectus repudiandae vero
@@ -78,7 +79,7 @@
         </div>
     </section>
 
-    <section data-section="servicesj" id="aboutj" class="services">
+    <section id="3" class="services page-section">
         <div class="servicesall">
             <div class="service art1">
                 <p>Online Shopping</p><i class="fas fa-coffee"></i>
@@ -98,7 +99,7 @@
         </h1>
     </section>
 
-    <section data-section="galleryj" id="galleryj" class="gallery">
+    <section id="4" class="gallery page-section">
         <h1>Gallery</h1>
         <p class="gallerytext">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed iure, omnis facere ipsa, nemo assumenda fugit
@@ -151,7 +152,7 @@
     </section>
 
 
-    <section data-section="blogj" id="blogj" class="blog">
+    <section id="5" class="blog page-section">
         <h1>
             Blog
         </h1>
@@ -195,7 +196,7 @@
 
     </section>
 
-    <section data-section="contactj" id="contactj" class="contact">
+    <section id="6" class="contact page-section">
         <h1>Contact</h1>
         <p class="contacttext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nisi animi.</p>
         <div class="formwrap">
@@ -237,18 +238,9 @@
 
     <script src="jquery-3.3.1.min.js"></script>
 
+
     <script src="code.js"></script>
 
-    <script>
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 50) {
-                $("aside #background").fadeIn();
-            } else {
-                console.log('there');
-                $("aside #background").fadeOut();
-            }
-        });
-    </script>
 
 </body>
 
