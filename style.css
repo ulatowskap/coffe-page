@@ -27,13 +27,13 @@ body {
 .art2,
 .art4 {
     transform: translateX(-100vw);
-    transition: 1s;
+    transition: 1.1s;
 }
 
 .art3,
 .art1 {
     transform: translateX(100vw);
-    transition: 1s;
+    transition: 1.1s;
 }
 
 .art1.active,
